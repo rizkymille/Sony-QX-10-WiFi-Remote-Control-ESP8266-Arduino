@@ -2,7 +2,11 @@
 //#include <ArduinoJson.h>
 
 //stałe trzymane w pamięci flash
-const char* TAKE_PICTURE_COMMAND PROGMEM = "{\"method\":\"actTakePicture\",\"params\":[],\"id\":1,\"version\":\"1.0\"}";
+const char* StillMode PROGMEM = "{\"method\":\"setShootMode\",\"params\":[\"still\"],\"id\":1,\"version\":\"1.0\"}";
+const char* TakePicture PROGMEM = "{\"method\":\"actTakePicture\",\"params\":[],\"id\":1,\"version\":\"1.0\"}";
+const char* MovieMode PROGMEM = "{\"method\":\"setShootMode\",\"params\":[\"movie\"],\"id\":1,\"version\":\"1.0\"}";
+const char* StartMovie PROGMEM = "{\"method\":\"startMovieRec\",\"params\":[],\"id\":1,\"version\":\"1.0\"}";
+const char* StopMovie PROGMEM = "{\"method\":\"stopMovieRec\",\"params\":[],\"id\":1,\"version\":\"1.0\"}";
 const char* ssid PROGMEM     = "DIRECT-9uQ0:DSC-QX10";
 const char* password PROGMEM = "JFJPXKpc";
 const char* host PROGMEM = "10.0.0.1";
@@ -46,7 +50,7 @@ void setup() {
   delay(2000);
 
   //FPSTR robi z const char* String'a, przydatne ;) Czytaj tu: https://github.com/esp8266/Arduino/blob/master/doc/reference.md#progmem
-  sendCommandToCamera(FPSTR(TAKE_PICTURE_COMMAND));
+  sendCommandToCamera(FPSTR(TakePicture));
   /*
   delay(500);
    char c[1024];
