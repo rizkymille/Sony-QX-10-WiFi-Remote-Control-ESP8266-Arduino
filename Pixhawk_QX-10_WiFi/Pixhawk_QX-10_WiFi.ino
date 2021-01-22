@@ -54,27 +54,6 @@ void setup() {
  
   //-----------------------
   delay(2000);
-
-  /*FPSTR does const char* String, Read: https://github.com/esp8266/Arduino/blob/master/doc/reference.md#progmem
-  sendCommandToCamera(FPSTR(TakePicture));
-  /*
-  delay(500);
-   char c[1024];
-  // Read all the lines of the reply from server and print them to Serial
-   while(client.available()){
-   c[0] = client.read();
-   Serial.print(c);
-   }
-   
-   StaticJsonBuffer<200> jsonBuffer;
-   JsonObject& root = jsonBuffer.parseObject(c);
-  int data = root["lowVersion"]; 
-  Serial.println();
-     Serial.print(data);
-     
-  Serial.println();
-  Serial.println("closing connection"); 
-  */
 }
 
 //main loop
