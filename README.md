@@ -7,7 +7,7 @@ Versions:
 * ArduPlane 4.0.6  
 * Sony QX-10 Firmware 3.0  
 
-For adding wider features, please look into Sony Camera Remote API beta 2.40 (I already included those reference in repository). Do not use the newer Camera Remote SDK because Sony hasn't included the wifi features.  
+For adding wider features, please look into Sony Camera Remote API beta 2.40. Do not use the newer Camera Remote SDK because Sony hasn't included the wifi features.  
 
 ## Setup ##  
 Please replace the camera SSID "DIRECT-dUQ0:DSC-QX10" and password "NE8oHWt5" with your own QX-10 camera SSID and Password. If you found difficulties when searching your camera SSID and Password, just look into the back battery cover.
