@@ -10,7 +10,7 @@ Versions:
 For adding wider features, please look into Sony Camera Remote API beta 2.40. Do not use the latest Camera Remote SDK because Sony hasn't included the wifi features.  
 
 ## Setup ##  
-Please replace the camera SSID "DIRECT-dUQ0:DSC-QX10" and password "NE8oHWt5" with your own QX-10 camera SSID and Password. If you found difficulties when searching your camera SSID and Password, just look into the back battery cover.
+Change the ssid "YOUR_CAMERA_SSID" and password "YOUR_CAMERA_PASSWORD" according to your QX-10 camera. If you found difficulties finding camera's SSID and Password, just look to the back battery cover.
 
 ### Pixhawk Parameters Settings ###
 #### Camera shutter pin: ###  
