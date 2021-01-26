@@ -3,7 +3,6 @@
  */
 
 #include <WiFi.h>
-//#include <ArduinoJson.h>
 
 //variables kept in flash memory
 const char* StillMode PROGMEM = "{\"method\":\"setShootMode\",\"params\":[\"still\"],\"id\":1,\"version\":\"1.0\"}";
