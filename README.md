@@ -1,7 +1,7 @@
 Credit to kuzcy for the original QX-10 Arduino code  
 
 # Pixhawk QX-10 Wifi Trigger
-Software for turning ESP32 into wifi based camera remote that can be triggered from pixhawk. This software was tested with Sony DSC QX-10, but you can try it with another Sony camera (as long as it has WiFi feature and included in Sony Camera Remote API beta).  
+Software for turning ESP32 into wifi based camera remote triggered from pixhawk. This software was tested with Sony DSC QX-10, but you can try it with another Sony camera (as long as it has WiFi feature and included in Sony Camera Remote API beta).  
 
 Versions:  
 * ArduPlane 4.0.6  
