@@ -11,8 +11,8 @@ const char* TakePicture PROGMEM = "{\"method\":\"actTakePicture\",\"params\":[],
 const char* MovieMode PROGMEM = "{\"method\":\"setShootMode\",\"params\":[\"movie\"],\"id\":1,\"version\":\"1.0\"}";
 const char* StartMovie PROGMEM = "{\"method\":\"startMovieRec\",\"params\":[],\"id\":1,\"version\":\"1.0\"}";
 const char* StopMovie PROGMEM = "{\"method\":\"stopMovieRec\",\"params\":[],\"id\":1,\"version\":\"1.0\"}";
-const char* ssid PROGMEM     = "DIRECT-dUQ0:DSC-QX10";
-const char* password PROGMEM = "NE8oHWt5";
+const char* ssid PROGMEM     = "YOUR_CAMERA_SSID";
+const char* password PROGMEM = "YOUR_CAMERA_PASSWORD";
 const char* host PROGMEM = "10.0.0.1";
 const int httpPort PROGMEM = 10000;
 //camera trigger pin
