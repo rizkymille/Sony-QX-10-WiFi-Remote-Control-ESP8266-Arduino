@@ -38,7 +38,7 @@ SIGNAL -> GPIO13 (D13)
 5. Ensure the camera triggers. If not, please reboot the ESP32
 
 ## Known Issues ##  
-This software was already tested at KRTI (National Flying Robot Competition) 2020 with Team Cygnus, Universitas Indonesia. The QX-10 is used as aerial mapping camera for our fixed wing UAV. These listed issues will less problematic if you use a copter type UAV or make a vibration damper for the QX-10. Some issues we have found in field such as:  
+These listed issues will less problematic if you use a copter type UAV or make a vibration damper for the QX-10. Some issues we have found in field such as:  
 * *Fast shooting, blurred images*  
   This is ocurring because there's no manual focus control in QX-10. So, if you delete the HalfPressShutter feature, you will get much more accurate images with pixhawk but with blurred quality.  
 * *Focused images, slow shooting*  
